@@ -1,0 +1,38 @@
+
+admin(email,password)
+
+Pharmacies(pharmacy id,email,pharmacy name,password,national id,avatar,areaid,priority,revenue)
+
+Doctors(email,doctor name,password,national id,avatar,banflag,pharmacy name)
+
+Users(userid,username,email.gender,password,date of birth,profile image,mobile number,nationalid)
+
+user addresses(areaid,streetname,buildingnumber,floornumber,falt_number,is_main,userid)
+
+Areas(name,areaid,address)
+
+medicines(medicine id,medicine name,quantity,type,price)
+
+orders(order id,username,delivering address,creation date,doctor name,is insured,status,action,pharmacy id)
+
+ordermedicine(order id,medicine id,quantity,total price)
+
+
+pages:
+admin(kol wa7da men eltabs ely 3la gamb f page)+normal page
+
+pharmacy(Hassanein)
+doctor(Mayar)
+user(Manar)
+user addresses(Manar)
+area(Yasmine)
+medicines(Yasmine) 
+orders(Marwa)
+
+
+
+
+
+
+
+
